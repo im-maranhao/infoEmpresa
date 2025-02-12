@@ -19,6 +19,19 @@ public class Main {
         System.out.println("\n------Informações do Desenvolvedor------");
         desenvolvedor.exibirInformacoes();
 
+
+        System.out.println("==========Testando Hash && Equals============");
+
+		Usuario userA = new Usuario ("Miriam", "Maranhão");
+		Usuario userB = new Usuario ("Miriam", "Maranhão");
+		// Usuario userB = userA;
+
+		System.out.println(userA);
+		System.out.println(userB);
+		System.out.println(userA.hashCode());
+		System.out.println(userB.hashCode());
+
+		System.out.println(userA.equals(userB));
     }
 
 }
