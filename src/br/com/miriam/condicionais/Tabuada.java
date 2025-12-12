@@ -83,7 +83,6 @@ public class Tabuada {
 
         System.out.println("Programa encerrado!");
         
-
             scanner.close();
         }
 
