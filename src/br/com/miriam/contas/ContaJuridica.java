@@ -3,7 +3,8 @@ package br.com.miriam.contas;
 import java.util.List;
 import java.util.ArrayList;
 
-public class ContaJuridica implements Conta, Pix{	
+public class ContaJuridica implements Conta, Pix{
+
 	private float saldo;
 	private int conta;
 	private List<String> historico;
@@ -54,4 +55,5 @@ public class ContaJuridica implements Conta, Pix{
 	public List getHistorico(){
 		return this.historico;
 	}
+
 }
