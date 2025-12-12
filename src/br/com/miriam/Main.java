@@ -13,14 +13,12 @@ public class Main {
         System.out.println("\n------Informações do Funcionario------");
         funcionario.exibirInformacoes();
 
-        System.out.println("\n------Informações do Gerente------");
+ System.out.println("\n------Informações do Gerente------");
         gerente.exibirInformacoes();
-
         System.out.println("\n------Informações do Desenvolvedor------");
         desenvolvedor.exibirInformacoes();
 
-
-        System.out.println("==========Testando Hash && Equals============");
+ System.out.println("==========Testando Hash && Equals============");
 
 		Usuario userA = new Usuario ("Miriam", "Maranhão");
 		Usuario userB = new Usuario ("Miriam", "Maranhão");
@@ -33,5 +31,4 @@ public class Main {
 
 		System.out.println(userA.equals(userB));
     }
-
 }
