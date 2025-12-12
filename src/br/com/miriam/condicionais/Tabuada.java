@@ -85,5 +85,4 @@ public class Tabuada {
         
             scanner.close();
         }
-
 }
